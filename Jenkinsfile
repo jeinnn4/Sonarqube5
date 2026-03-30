@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone from GitHub') {
             steps {
-                git url: 'https://github.com/Kheav-Kienghok/DevOp-Assignment-5.git', branch: 'main'
+                git url: 'https://github.com/jeinnn4/Sonarqube5.git', branch: 'main'
                 echo 'Cloning Done'
             }
         }
